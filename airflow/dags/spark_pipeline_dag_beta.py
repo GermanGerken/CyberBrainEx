@@ -1,3 +1,4 @@
+# import datetime
 from airflow import DAG
 from airflow.utils.dates import days_ago
 from airflow.operators.python import PythonOperator
@@ -12,7 +13,9 @@ default_args = {
     "retries": 1,
 }
 
-# NOTE: DAG declaration - using a Context Manager (an implicit way)
+# path = f"data/{datetime.date.today()}.logsite.csv.gz"
+
+
 with DAG(
         dag_id="spark_pipeline_dag",
         schedule_interval="@daily",
