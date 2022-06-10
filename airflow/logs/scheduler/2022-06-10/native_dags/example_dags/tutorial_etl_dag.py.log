@@ -1,0 +1,25 @@
+[2022-06-10 16:42:37,033] {processor.py:153} INFO - Started process (PID=11655) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-06-10 16:42:37,033] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-06-10 16:42:37,033] {logging_mixin.py:115} INFO - [2022-06-10 16:42:37,033] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-06-10 16:42:37,041] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-06-10 16:42:37,312] {logging_mixin.py:115} INFO - [2022-06-10 16:42:37,312] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial_etl_dag
+[2022-06-10 16:42:37,315] {logging_mixin.py:115} INFO - [2022-06-10 16:42:37,315] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial_etl_dag
+[2022-06-10 16:42:37,316] {logging_mixin.py:115} INFO - [2022-06-10 16:42:37,316] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial_etl_dag
+[2022-06-10 16:42:37,316] {logging_mixin.py:115} INFO - [2022-06-10 16:42:37,316] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:42:37,319] {logging_mixin.py:115} INFO - [2022-06-10 16:42:37,319] {dag.py:2398} INFO - Creating ORM DAG for tutorial_etl_dag
+[2022-06-10 16:42:37,321] {logging_mixin.py:115} INFO - [2022-06-10 16:42:37,321] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-06-10 16:42:37,325] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.293 seconds
+[2022-06-10 16:43:29,336] {processor.py:153} INFO - Started process (PID=11768) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-06-10 16:43:29,336] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-06-10 16:43:29,336] {logging_mixin.py:115} INFO - [2022-06-10 16:43:29,336] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-06-10 16:43:29,344] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-06-10 16:43:29,363] {logging_mixin.py:115} INFO - [2022-06-10 16:43:29,363] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:29,367] {logging_mixin.py:115} INFO - [2022-06-10 16:43:29,367] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-06-10 16:43:29,371] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.036 seconds
+[2022-06-10 16:44:11,946] {processor.py:153} INFO - Started process (PID=11865) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-06-10 16:44:11,947] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2022-06-10 16:44:11,947] {logging_mixin.py:115} INFO - [2022-06-10 16:44:11,947] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-06-10 16:44:11,956] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2022-06-10 16:44:11,975] {logging_mixin.py:115} INFO - [2022-06-10 16:44:11,975] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:44:11,980] {logging_mixin.py:115} INFO - [2022-06-10 16:44:11,980] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2022-06-10 16:44:11,983] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.037 seconds

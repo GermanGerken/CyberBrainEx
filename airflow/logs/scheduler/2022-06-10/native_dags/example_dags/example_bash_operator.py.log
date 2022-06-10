@@ -1,0 +1,18 @@
+[2022-06-10 16:43:22,350] {processor.py:153} INFO - Started process (PID=11753) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-06-10 16:43:22,350] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-06-10 16:43:22,350] {logging_mixin.py:115} INFO - [2022-06-10 16:43:22,350] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-06-10 16:43:22,356] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-06-10 16:43:22,627] {logging_mixin.py:115} INFO - [2022-06-10 16:43:22,627] {manager.py:508} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2022-06-10 16:43:22,630] {logging_mixin.py:115} INFO - [2022-06-10 16:43:22,630] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2022-06-10 16:43:22,631] {logging_mixin.py:115} INFO - [2022-06-10 16:43:22,631] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2022-06-10 16:43:22,631] {logging_mixin.py:115} INFO - [2022-06-10 16:43:22,631] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:22,634] {logging_mixin.py:115} INFO - [2022-06-10 16:43:22,634] {dag.py:2398} INFO - Creating ORM DAG for example_bash_operator
+[2022-06-10 16:43:22,637] {logging_mixin.py:115} INFO - [2022-06-10 16:43:22,637] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2022-06-09T00:00:00+00:00, run_after=2022-06-10T00:00:00+00:00
+[2022-06-10 16:43:22,641] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.291 seconds
+[2022-06-10 16:44:05,876] {processor.py:153} INFO - Started process (PID=11849) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-06-10 16:44:05,877] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2022-06-10 16:44:05,877] {logging_mixin.py:115} INFO - [2022-06-10 16:44:05,877] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-06-10 16:44:05,883] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2022-06-10 16:44:05,903] {logging_mixin.py:115} INFO - [2022-06-10 16:44:05,903] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:44:05,907] {logging_mixin.py:115} INFO - [2022-06-10 16:44:05,907] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2022-06-09T00:00:00+00:00, run_after=2022-06-10T00:00:00+00:00
+[2022-06-10 16:44:05,911] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.035 seconds

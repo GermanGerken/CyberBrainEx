@@ -1,0 +1,25 @@
+[2022-06-10 16:42:43,938] {processor.py:153} INFO - Started process (PID=11669) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-06-10 16:42:43,938] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-06-10 16:42:43,938] {logging_mixin.py:115} INFO - [2022-06-10 16:42:43,938] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-06-10 16:42:43,949] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-06-10 16:42:44,217] {logging_mixin.py:115} INFO - [2022-06-10 16:42:44,217] {manager.py:508} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2022-06-10 16:42:44,220] {logging_mixin.py:115} INFO - [2022-06-10 16:42:44,220] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2022-06-10 16:42:44,221] {logging_mixin.py:115} INFO - [2022-06-10 16:42:44,221] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2022-06-10 16:42:44,221] {logging_mixin.py:115} INFO - [2022-06-10 16:42:44,221] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:42:44,224] {logging_mixin.py:115} INFO - [2022-06-10 16:42:44,224] {dag.py:2398} INFO - Creating ORM DAG for example_trigger_target_dag
+[2022-06-10 16:42:44,226] {logging_mixin.py:115} INFO - [2022-06-10 16:42:44,226] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-06-10 16:42:44,255] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.317 seconds
+[2022-06-10 16:43:34,711] {processor.py:153} INFO - Started process (PID=11777) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-06-10 16:43:34,711] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-06-10 16:43:34,711] {logging_mixin.py:115} INFO - [2022-06-10 16:43:34,711] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-06-10 16:43:34,722] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-06-10 16:43:34,741] {logging_mixin.py:115} INFO - [2022-06-10 16:43:34,741] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:34,746] {logging_mixin.py:115} INFO - [2022-06-10 16:43:34,746] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-06-10 16:43:34,750] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.039 seconds
+[2022-06-10 16:44:17,325] {processor.py:153} INFO - Started process (PID=11874) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-06-10 16:44:17,326] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-06-10 16:44:17,326] {logging_mixin.py:115} INFO - [2022-06-10 16:44:17,326] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-06-10 16:44:17,337] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-06-10 16:44:17,357] {logging_mixin.py:115} INFO - [2022-06-10 16:44:17,357] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:44:17,362] {logging_mixin.py:115} INFO - [2022-06-10 16:44:17,362] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-06-10 16:44:17,365] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.041 seconds

@@ -1,0 +1,75 @@
+[2022-06-10 16:47:20,221] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_pipeline_dag.extract_data_task manual__2022-06-10T13:47:13.854633+00:00 [queued]>
+[2022-06-10 16:47:20,229] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_pipeline_dag.extract_data_task manual__2022-06-10T13:47:13.854633+00:00 [queued]>
+[2022-06-10 16:47:20,229] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-10 16:47:20,229] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2022-06-10 16:47:20,229] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-10 16:47:20,237] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extract_data_task> on 2022-06-10 13:47:13.854633+00:00
+[2022-06-10 16:47:20,239] {standard_task_runner.py:52} INFO - Started process 12344 to run task
+[2022-06-10 16:47:20,244] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'spark_pipeline_dag', 'extract_data_task', 'manual__2022-06-10T13:47:13.854633+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/spark_pipeline_dag.py', '--cfg-path', '/var/folders/7p/cr8xz9ln34l55g9c5fr8glxm0000gn/T/tmpatvbvga2', '--error-file', '/var/folders/7p/cr8xz9ln34l55g9c5fr8glxm0000gn/T/tmpnnsyntgu']
+[2022-06-10 16:47:20,249] {standard_task_runner.py:80} INFO - Job 6: Subtask extract_data_task
+[2022-06-10 16:47:20,281] {task_command.py:370} INFO - Running <TaskInstance: spark_pipeline_dag.extract_data_task manual__2022-06-10T13:47:13.854633+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2022-06-10 16:47:20,303] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=spark_pipeline_dag
+AIRFLOW_CTX_TASK_ID=extract_data_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-10T13:47:13.854633+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-06-10T13:47:13.854633+00:00
+[2022-06-10 16:47:25,290] {local_task_job.py:220} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2022-06-10 16:47:25,292] {process_utils.py:125} INFO - Sending Signals.SIGTERM to group 12344. PIDs of all processes in the group: [12345, 12344]
+[2022-06-10 16:47:25,292] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 12344
+[2022-06-10 16:47:25,293] {taskinstance.py:1541} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-06-10 16:47:25,293] {clientserver.py:502} INFO - Error while receiving.
+Traceback (most recent call last):
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/py4j/clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1543, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-06-10 16:47:25,294] {clientserver.py:507} INFO - Closing down clientserver connection
+[2022-06-10 16:47:25,294] {java_gateway.py:1055} ERROR - Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/py4j/clientserver.py", line 475, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1543, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/py4j/clientserver.py", line 503, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+[2022-06-10 16:47:25,295] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/germangerken/airflow/dags/spark_pipeline_dag.py", line 32, in extract_data
+    df = spark.read.option("header", "true").csv(path)
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/pyspark/sql/readwriter.py", line 410, in csv
+    return self._df(self._jreader.csv(self._spark._sc._jvm.PythonUtils.toSeq(path)))
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/py4j/java_gateway.py", line 1321, in __call__
+    return_value = get_return_value(
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/pyspark/sql/utils.py", line 111, in deco
+    return f(*a, **kw)
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o27.csv
+[2022-06-10 16:47:25,299] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=spark_pipeline_dag, task_id=extract_data_task, execution_date=20220610T134713, start_date=20220610T134720, end_date=20220610T134725
+[2022-06-10 16:47:25,306] {standard_task_runner.py:92} ERROR - Failed to execute job 6 for task extract_data_task ((sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('extract_data_task', 'spark_pipeline_dag', 'manual__2022-06-10T13:47:13.854633+00:00', -1, '2022-06-10 13:47:20.222163', '2022-06-10 13:47:25.299145', 5)]
+(Background on this error at: http://sqlalche.me/e/14/gkpj); 12344)
+[2022-06-10 16:47:25,307] {process_utils.py:75} INFO - Process psutil.Process(pid=12344, status='terminated', exitcode=1, started='16:47:20') (12344) terminated with exit code 1
+[2022-06-10 16:47:25,916] {process_utils.py:75} INFO - Process psutil.Process(pid=12345, status='terminated', started='16:47:20') (12345) terminated with exit code None

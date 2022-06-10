@@ -1,0 +1,22 @@
+[2022-06-10 16:43:04,558] {processor.py:153} INFO - Started process (PID=11706) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-10 16:43:04,558] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-10 16:43:04,558] {logging_mixin.py:115} INFO - [2022-06-10 16:43:04,558] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-10 16:43:04,566] {logging_mixin.py:115} INFO - [2022-06-10 16:43:04,566] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-10 16:43:04,566] {logging_mixin.py:115} INFO - [2022-06-10 16:43:04,566] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-10 16:43:04,567] {processor.py:653} WARNING - No viable dags retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-10 16:43:04,579] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2022-06-10 16:43:49,175] {processor.py:153} INFO - Started process (PID=11810) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-10 16:43:49,175] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-06-10 16:43:49,175] {logging_mixin.py:115} INFO - [2022-06-10 16:43:49,175] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-10 16:43:49,183] {logging_mixin.py:115} INFO - [2022-06-10 16:43:49,183] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-06-10 16:43:49,183] {logging_mixin.py:115} INFO - [2022-06-10 16:43:49,183] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-06-10 16:43:49,183] {processor.py:653} WARNING - No viable dags retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-06-10 16:43:49,196] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.021 seconds

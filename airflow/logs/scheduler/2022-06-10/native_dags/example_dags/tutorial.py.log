@@ -1,0 +1,25 @@
+[2022-06-10 16:42:38,732] {processor.py:153} INFO - Started process (PID=11656) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-06-10 16:42:38,732] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-06-10 16:42:38,732] {logging_mixin.py:115} INFO - [2022-06-10 16:42:38,732] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-06-10 16:42:38,738] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-06-10 16:42:39,010] {logging_mixin.py:115} INFO - [2022-06-10 16:42:39,010] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial
+[2022-06-10 16:42:39,012] {logging_mixin.py:115} INFO - [2022-06-10 16:42:39,012] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial
+[2022-06-10 16:42:39,014] {logging_mixin.py:115} INFO - [2022-06-10 16:42:39,014] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial
+[2022-06-10 16:42:39,014] {logging_mixin.py:115} INFO - [2022-06-10 16:42:39,014] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:42:39,016] {logging_mixin.py:115} INFO - [2022-06-10 16:42:39,016] {dag.py:2398} INFO - Creating ORM DAG for tutorial
+[2022-06-10 16:42:39,019] {logging_mixin.py:115} INFO - [2022-06-10 16:42:39,019] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2022-06-09T13:42:39.019192+00:00, run_after=2022-06-10T13:42:39.019192+00:00
+[2022-06-10 16:42:39,023] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.291 seconds
+[2022-06-10 16:43:30,738] {processor.py:153} INFO - Started process (PID=11769) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-06-10 16:43:30,738] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-06-10 16:43:30,738] {logging_mixin.py:115} INFO - [2022-06-10 16:43:30,738] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-06-10 16:43:30,742] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-06-10 16:43:30,762] {logging_mixin.py:115} INFO - [2022-06-10 16:43:30,762] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:30,766] {logging_mixin.py:115} INFO - [2022-06-10 16:43:30,766] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2022-06-09T13:43:30.766657+00:00, run_after=2022-06-10T13:43:30.766657+00:00
+[2022-06-10 16:43:30,770] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.033 seconds
+[2022-06-10 16:44:13,342] {processor.py:153} INFO - Started process (PID=11866) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-06-10 16:44:13,343] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2022-06-10 16:44:13,343] {logging_mixin.py:115} INFO - [2022-06-10 16:44:13,343] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-06-10 16:44:13,348] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2022-06-10 16:44:13,367] {logging_mixin.py:115} INFO - [2022-06-10 16:44:13,367] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:44:13,371] {logging_mixin.py:115} INFO - [2022-06-10 16:44:13,371] {dag.py:2927} INFO - Setting next_dagrun for tutorial to 2022-06-09T13:44:13.371824+00:00, run_after=2022-06-10T13:44:13.371824+00:00
+[2022-06-10 16:44:13,375] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.033 seconds

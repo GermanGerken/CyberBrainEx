@@ -1,0 +1,18 @@
+[2022-06-10 16:42:55,978] {processor.py:153} INFO - Started process (PID=11691) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-10 16:42:55,978] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-06-10 16:42:55,978] {logging_mixin.py:115} INFO - [2022-06-10 16:42:55,978] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-10 16:42:55,983] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-10 16:42:56,255] {logging_mixin.py:115} INFO - [2022-06-10 16:42:56,255] {manager.py:508} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2022-06-10 16:42:56,257] {logging_mixin.py:115} INFO - [2022-06-10 16:42:56,257] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2022-06-10 16:42:56,259] {logging_mixin.py:115} INFO - [2022-06-10 16:42:56,259] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2022-06-10 16:42:56,259] {logging_mixin.py:115} INFO - [2022-06-10 16:42:56,259] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:42:56,261] {logging_mixin.py:115} INFO - [2022-06-10 16:42:56,261] {dag.py:2398} INFO - Creating ORM DAG for example_skip_dag
+[2022-06-10 16:42:56,264] {logging_mixin.py:115} INFO - [2022-06-10 16:42:56,264] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2022-06-09T13:42:56.264343+00:00, run_after=2022-06-10T13:42:56.264343+00:00
+[2022-06-10 16:42:56,268] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.290 seconds
+[2022-06-10 16:43:43,704] {processor.py:153} INFO - Started process (PID=11799) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-10 16:43:43,704] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-06-10 16:43:43,704] {logging_mixin.py:115} INFO - [2022-06-10 16:43:43,704] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-10 16:43:43,708] {processor.py:651} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-06-10 16:43:43,727] {logging_mixin.py:115} INFO - [2022-06-10 16:43:43,727] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:43,732] {logging_mixin.py:115} INFO - [2022-06-10 16:43:43,732] {dag.py:2927} INFO - Setting next_dagrun for example_skip_dag to 2022-06-09T13:43:43.732197+00:00, run_after=2022-06-10T13:43:43.732197+00:00
+[2022-06-10 16:43:43,735] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.032 seconds

@@ -1,0 +1,32 @@
+[2022-06-10 16:42:40,442] {processor.py:153} INFO - Started process (PID=11662) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-06-10 16:42:40,442] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-06-10 16:42:40,443] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,443] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-06-10 16:42:40,454] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-06-10 16:42:40,723] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,723] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2022-06-10 16:42:40,725] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,725] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2022-06-10 16:42:40,727] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,727] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2022-06-10 16:42:40,730] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,730] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2022-06-10 16:42:40,732] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,732] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2022-06-10 16:42:40,734] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,734] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2022-06-10 16:42:40,734] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,734] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-06-10 16:42:40,736] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,736] {dag.py:2398} INFO - Creating ORM DAG for example_xcom_args
+[2022-06-10 16:42:40,736] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,736] {dag.py:2398} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2022-06-10 16:42:40,739] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,739] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-06-10 16:42:40,739] {logging_mixin.py:115} INFO - [2022-06-10 16:42:40,739] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-06-10 16:42:40,768] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.326 seconds
+[2022-06-10 16:43:32,138] {processor.py:153} INFO - Started process (PID=11770) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-06-10 16:43:32,138] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-06-10 16:43:32,138] {logging_mixin.py:115} INFO - [2022-06-10 16:43:32,138] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-06-10 16:43:32,150] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-06-10 16:43:32,369] {logging_mixin.py:115} INFO - [2022-06-10 16:43:32,369] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-06-10 16:43:32,374] {logging_mixin.py:115} INFO - [2022-06-10 16:43:32,374] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-06-10 16:43:32,374] {logging_mixin.py:115} INFO - [2022-06-10 16:43:32,374] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-06-10 16:43:32,378] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.241 seconds
+[2022-06-10 16:44:14,731] {processor.py:153} INFO - Started process (PID=11872) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-06-10 16:44:14,732] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2022-06-10 16:44:14,732] {logging_mixin.py:115} INFO - [2022-06-10 16:44:14,732] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-06-10 16:44:14,744] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2022-06-10 16:44:14,960] {logging_mixin.py:115} INFO - [2022-06-10 16:44:14,960] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-06-10 16:44:14,964] {logging_mixin.py:115} INFO - [2022-06-10 16:44:14,964] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2022-06-10 16:44:14,965] {logging_mixin.py:115} INFO - [2022-06-10 16:44:14,965] {dag.py:2927} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2022-06-10 16:44:14,969] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 0.238 seconds

@@ -1,0 +1,18 @@
+[2022-06-10 16:43:12,537] {processor.py:153} INFO - Started process (PID=11728) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2022-06-10 16:43:12,537] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-06-10 16:43:12,537] {logging_mixin.py:115} INFO - [2022-06-10 16:43:12,537] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2022-06-10 16:43:12,543] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2022-06-10 16:43:12,813] {logging_mixin.py:115} INFO - [2022-06-10 16:43:12,813] {manager.py:508} INFO - Created Permission View: can read on DAG:example_complex
+[2022-06-10 16:43:12,816] {logging_mixin.py:115} INFO - [2022-06-10 16:43:12,816] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_complex
+[2022-06-10 16:43:12,817] {logging_mixin.py:115} INFO - [2022-06-10 16:43:12,817] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_complex
+[2022-06-10 16:43:12,818] {logging_mixin.py:115} INFO - [2022-06-10 16:43:12,817] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:12,820] {logging_mixin.py:115} INFO - [2022-06-10 16:43:12,820] {dag.py:2398} INFO - Creating ORM DAG for example_complex
+[2022-06-10 16:43:12,822] {logging_mixin.py:115} INFO - [2022-06-10 16:43:12,822] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-06-10 16:43:12,827] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.290 seconds
+[2022-06-10 16:43:57,186] {processor.py:153} INFO - Started process (PID=11832) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2022-06-10 16:43:57,187] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2022-06-10 16:43:57,187] {logging_mixin.py:115} INFO - [2022-06-10 16:43:57,187] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2022-06-10 16:43:57,193] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2022-06-10 16:43:57,215] {logging_mixin.py:115} INFO - [2022-06-10 16:43:57,215] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:57,219] {logging_mixin.py:115} INFO - [2022-06-10 16:43:57,219] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2022-06-10 16:43:57,223] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.037 seconds

@@ -1,0 +1,24 @@
+[2022-06-10 16:43:09,930] {processor.py:153} INFO - Started process (PID=11721) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-06-10 16:43:09,930] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-06-10 16:43:09,930] {logging_mixin.py:115} INFO - [2022-06-10 16:43:09,930] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-06-10 16:43:09,935] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-06-10 16:43:10,211] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,211] {manager.py:508} INFO - Created Permission View: can read on DAG:example_external_task_marker_parent
+[2022-06-10 16:43:10,214] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,214] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_external_task_marker_parent
+[2022-06-10 16:43:10,216] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,216] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_external_task_marker_parent
+[2022-06-10 16:43:10,221] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,221] {manager.py:508} INFO - Created Permission View: can read on DAG:example_external_task_marker_child
+[2022-06-10 16:43:10,223] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,223] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_external_task_marker_child
+[2022-06-10 16:43:10,224] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,224] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_external_task_marker_child
+[2022-06-10 16:43:10,225] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,224] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-06-10 16:43:10,227] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,227] {dag.py:2398} INFO - Creating ORM DAG for example_external_task_marker_parent
+[2022-06-10 16:43:10,227] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,227] {dag.py:2398} INFO - Creating ORM DAG for example_external_task_marker_child
+[2022-06-10 16:43:10,230] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,230] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-06-10 16:43:10,230] {logging_mixin.py:115} INFO - [2022-06-10 16:43:10,230] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-06-10 16:43:10,235] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.305 seconds
+[2022-06-10 16:43:54,089] {processor.py:153} INFO - Started process (PID=11825) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-06-10 16:43:54,090] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-06-10 16:43:54,090] {logging_mixin.py:115} INFO - [2022-06-10 16:43:54,090] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-06-10 16:43:54,095] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-06-10 16:43:54,119] {logging_mixin.py:115} INFO - [2022-06-10 16:43:54,119] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-06-10 16:43:54,124] {logging_mixin.py:115} INFO - [2022-06-10 16:43:54,124] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-06-10 16:43:54,124] {logging_mixin.py:115} INFO - [2022-06-10 16:43:54,124] {dag.py:2927} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-06-10 16:43:54,127] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.038 seconds

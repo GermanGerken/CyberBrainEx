@@ -1,0 +1,25 @@
+[2022-06-10 16:42:42,192] {processor.py:153} INFO - Started process (PID=11663) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-06-10 16:42:42,192] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-06-10 16:42:42,192] {logging_mixin.py:115} INFO - [2022-06-10 16:42:42,192] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-06-10 16:42:42,204] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-06-10 16:42:42,476] {logging_mixin.py:115} INFO - [2022-06-10 16:42:42,476] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom
+[2022-06-10 16:42:42,478] {logging_mixin.py:115} INFO - [2022-06-10 16:42:42,478] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom
+[2022-06-10 16:42:42,480] {logging_mixin.py:115} INFO - [2022-06-10 16:42:42,480] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom
+[2022-06-10 16:42:42,480] {logging_mixin.py:115} INFO - [2022-06-10 16:42:42,480] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:42:42,483] {logging_mixin.py:115} INFO - [2022-06-10 16:42:42,483] {dag.py:2398} INFO - Creating ORM DAG for example_xcom
+[2022-06-10 16:42:42,486] {logging_mixin.py:115} INFO - [2022-06-10 16:42:42,486] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-06-10 16:42:42,514] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.322 seconds
+[2022-06-10 16:43:33,063] {processor.py:153} INFO - Started process (PID=11776) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-06-10 16:43:33,063] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-06-10 16:43:33,063] {logging_mixin.py:115} INFO - [2022-06-10 16:43:33,063] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-06-10 16:43:33,074] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-06-10 16:43:33,288] {logging_mixin.py:115} INFO - [2022-06-10 16:43:33,288] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:33,293] {logging_mixin.py:115} INFO - [2022-06-10 16:43:33,293] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-06-10 16:43:33,297] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.235 seconds
+[2022-06-10 16:44:16,365] {processor.py:153} INFO - Started process (PID=11873) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-06-10 16:44:16,366] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-06-10 16:44:16,366] {logging_mixin.py:115} INFO - [2022-06-10 16:44:16,366] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-06-10 16:44:16,377] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-06-10 16:44:16,597] {logging_mixin.py:115} INFO - [2022-06-10 16:44:16,597] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:44:16,602] {logging_mixin.py:115} INFO - [2022-06-10 16:44:16,602] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-06-10 16:44:16,607] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.242 seconds

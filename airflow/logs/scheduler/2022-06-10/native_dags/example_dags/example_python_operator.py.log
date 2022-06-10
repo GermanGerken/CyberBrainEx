@@ -1,0 +1,20 @@
+[2022-06-10 16:42:59,399] {processor.py:153} INFO - Started process (PID=11698) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-10 16:42:59,399] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-06-10 16:42:59,399] {logging_mixin.py:115} INFO - [2022-06-10 16:42:59,399] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-10 16:42:59,408] {logging_mixin.py:115} INFO - [2022-06-10 16:42:59,408] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-06-10 16:42:59,410] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-10 16:42:59,679] {logging_mixin.py:115} INFO - [2022-06-10 16:42:59,679] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2022-06-10 16:42:59,681] {logging_mixin.py:115} INFO - [2022-06-10 16:42:59,681] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2022-06-10 16:42:59,683] {logging_mixin.py:115} INFO - [2022-06-10 16:42:59,683] {manager.py:508} INFO - Created Permission View: can read on DAG:example_python_operator
+[2022-06-10 16:42:59,683] {logging_mixin.py:115} INFO - [2022-06-10 16:42:59,683] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:42:59,685] {logging_mixin.py:115} INFO - [2022-06-10 16:42:59,685] {dag.py:2398} INFO - Creating ORM DAG for example_python_operator
+[2022-06-10 16:42:59,688] {logging_mixin.py:115} INFO - [2022-06-10 16:42:59,688] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-06-10 16:42:59,692] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.293 seconds
+[2022-06-10 16:43:45,514] {processor.py:153} INFO - Started process (PID=11801) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-10 16:43:45,514] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2022-06-10 16:43:45,515] {logging_mixin.py:115} INFO - [2022-06-10 16:43:45,515] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-10 16:43:45,523] {logging_mixin.py:115} INFO - [2022-06-10 16:43:45,523] {example_python_operator.py:68} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2022-06-10 16:43:45,526] {processor.py:651} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2022-06-10 16:43:45,545] {logging_mixin.py:115} INFO - [2022-06-10 16:43:45,545] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:45,550] {logging_mixin.py:115} INFO - [2022-06-10 16:43:45,550] {dag.py:2927} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2022-06-10 16:43:45,553] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.039 seconds

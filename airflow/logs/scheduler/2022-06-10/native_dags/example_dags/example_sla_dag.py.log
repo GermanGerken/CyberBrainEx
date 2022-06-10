@@ -1,0 +1,18 @@
+[2022-06-10 16:42:54,263] {processor.py:153} INFO - Started process (PID=11690) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-06-10 16:42:54,263] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-06-10 16:42:54,263] {logging_mixin.py:115} INFO - [2022-06-10 16:42:54,263] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-06-10 16:42:54,274] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-06-10 16:42:54,540] {logging_mixin.py:115} INFO - [2022-06-10 16:42:54,540] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2022-06-10 16:42:54,542] {logging_mixin.py:115} INFO - [2022-06-10 16:42:54,542] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2022-06-10 16:42:54,544] {logging_mixin.py:115} INFO - [2022-06-10 16:42:54,544] {manager.py:508} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2022-06-10 16:42:54,544] {logging_mixin.py:115} INFO - [2022-06-10 16:42:54,544] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:42:54,546] {logging_mixin.py:115} INFO - [2022-06-10 16:42:54,546] {dag.py:2398} INFO - Creating ORM DAG for example_sla_dag
+[2022-06-10 16:42:54,550] {logging_mixin.py:115} INFO - [2022-06-10 16:42:54,550] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2022-06-10T13:40:00+00:00, run_after=2022-06-10T13:42:00+00:00
+[2022-06-10 16:42:54,554] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.291 seconds
+[2022-06-10 16:43:43,007] {processor.py:153} INFO - Started process (PID=11794) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-06-10 16:43:43,007] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-06-10 16:43:43,008] {logging_mixin.py:115} INFO - [2022-06-10 16:43:43,008] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-06-10 16:43:43,020] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-06-10 16:43:43,040] {logging_mixin.py:115} INFO - [2022-06-10 16:43:43,040] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:43,046] {logging_mixin.py:115} INFO - [2022-06-10 16:43:43,046] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2022-06-10T13:40:00+00:00, run_after=2022-06-10T13:42:00+00:00
+[2022-06-10 16:43:43,050] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.043 seconds

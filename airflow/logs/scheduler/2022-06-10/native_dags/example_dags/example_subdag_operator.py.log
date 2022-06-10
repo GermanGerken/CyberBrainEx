@@ -1,0 +1,42 @@
+[2022-06-10 16:42:52,545] {processor.py:153} INFO - Started process (PID=11684) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-06-10 16:42:52,545] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-06-10 16:42:52,545] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,545] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-06-10 16:42:52,563] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-06-10 16:42:52,827] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,827] {manager.py:508} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2022-06-10 16:42:52,829] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,829] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2022-06-10 16:42:52,831] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,831] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2022-06-10 16:42:52,831] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,831] {dag.py:2379} INFO - Sync 3 DAGs
+[2022-06-10 16:42:52,833] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,833] {dag.py:2398} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2022-06-10 16:42:52,834] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,834] {dag.py:2398} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2022-06-10 16:42:52,834] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,834] {dag.py:2398} INFO - Creating ORM DAG for example_subdag_operator
+[2022-06-10 16:42:52,836] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,836] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-06-10 16:42:52,836] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,836] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-06-10 16:42:52,836] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,836] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-06-10 16:42:52,838] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,838] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-06-10 16:42:52,839] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,839] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-06-10 16:42:52,839] {logging_mixin.py:115} INFO - [2022-06-10 16:42:52,839] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-06-10 16:42:52,842] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.298 seconds
+[2022-06-10 16:43:41,567] {processor.py:153} INFO - Started process (PID=11792) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-06-10 16:43:41,567] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-06-10 16:43:41,567] {logging_mixin.py:115} INFO - [2022-06-10 16:43:41,567] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-06-10 16:43:41,584] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-06-10 16:43:41,596] {logging_mixin.py:115} INFO - [2022-06-10 16:43:41,596] {dag.py:2379} INFO - Sync 3 DAGs
+[2022-06-10 16:43:41,600] {logging_mixin.py:115} INFO - [2022-06-10 16:43:41,600] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-06-10 16:43:41,600] {logging_mixin.py:115} INFO - [2022-06-10 16:43:41,600] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-06-10 16:43:41,600] {logging_mixin.py:115} INFO - [2022-06-10 16:43:41,600] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-06-10 16:43:41,602] {logging_mixin.py:115} INFO - [2022-06-10 16:43:41,602] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-06-10 16:43:41,603] {logging_mixin.py:115} INFO - [2022-06-10 16:43:41,603] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-06-10 16:43:41,603] {logging_mixin.py:115} INFO - [2022-06-10 16:43:41,603] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-06-10 16:43:41,605] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.039 seconds
+[2022-06-10 16:44:24,126] {processor.py:153} INFO - Started process (PID=11890) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-06-10 16:44:24,126] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-06-10 16:44:24,127] {logging_mixin.py:115} INFO - [2022-06-10 16:44:24,127] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-06-10 16:44:24,147] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-06-10 16:44:24,159] {logging_mixin.py:115} INFO - [2022-06-10 16:44:24,159] {dag.py:2379} INFO - Sync 3 DAGs
+[2022-06-10 16:44:24,164] {logging_mixin.py:115} INFO - [2022-06-10 16:44:24,164] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2022-06-10 16:44:24,164] {logging_mixin.py:115} INFO - [2022-06-10 16:44:24,164] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-06-10 16:44:24,164] {logging_mixin.py:115} INFO - [2022-06-10 16:44:24,164] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-06-10 16:44:24,165] {logging_mixin.py:115} INFO - [2022-06-10 16:44:24,165] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-06-10 16:44:24,166] {logging_mixin.py:115} INFO - [2022-06-10 16:44:24,166] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-06-10 16:44:24,166] {logging_mixin.py:115} INFO - [2022-06-10 16:44:24,166] {dag.py:2927} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-06-10 16:44:24,169] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.043 seconds

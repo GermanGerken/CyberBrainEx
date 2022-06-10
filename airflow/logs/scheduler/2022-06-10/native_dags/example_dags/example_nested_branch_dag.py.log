@@ -1,0 +1,18 @@
+[2022-06-10 16:43:02,847] {processor.py:153} INFO - Started process (PID=11705) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-06-10 16:43:02,847] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-06-10 16:43:02,847] {logging_mixin.py:115} INFO - [2022-06-10 16:43:02,847] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-06-10 16:43:02,856] {processor.py:651} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-06-10 16:43:03,121] {logging_mixin.py:115} INFO - [2022-06-10 16:43:03,121] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_nested_branch_dag
+[2022-06-10 16:43:03,124] {logging_mixin.py:115} INFO - [2022-06-10 16:43:03,124] {manager.py:508} INFO - Created Permission View: can read on DAG:example_nested_branch_dag
+[2022-06-10 16:43:03,125] {logging_mixin.py:115} INFO - [2022-06-10 16:43:03,125] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_nested_branch_dag
+[2022-06-10 16:43:03,125] {logging_mixin.py:115} INFO - [2022-06-10 16:43:03,125] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:03,128] {logging_mixin.py:115} INFO - [2022-06-10 16:43:03,128] {dag.py:2398} INFO - Creating ORM DAG for example_nested_branch_dag
+[2022-06-10 16:43:03,131] {logging_mixin.py:115} INFO - [2022-06-10 16:43:03,131] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-06-09T00:00:00+00:00, run_after=2022-06-10T00:00:00+00:00
+[2022-06-10 16:43:03,135] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.288 seconds
+[2022-06-10 16:43:47,785] {processor.py:153} INFO - Started process (PID=11808) to work on /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-06-10 16:43:47,785] {processor.py:641} INFO - Processing file /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-06-10 16:43:47,785] {logging_mixin.py:115} INFO - [2022-06-10 16:43:47,785] {dagbag.py:507} INFO - Filling up the DagBag from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-06-10 16:43:47,794] {processor.py:651} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-06-10 16:43:47,813] {logging_mixin.py:115} INFO - [2022-06-10 16:43:47,813] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-10 16:43:47,818] {logging_mixin.py:115} INFO - [2022-06-10 16:43:47,818] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-06-09T00:00:00+00:00, run_after=2022-06-10T00:00:00+00:00
+[2022-06-10 16:43:47,821] {processor.py:161} INFO - Processing /Users/germangerken/PycharmProjects/CyberBrainExs/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.037 seconds

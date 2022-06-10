@@ -1,0 +1,23 @@
+[2022-06-10 17:08:36,768] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_pipeline_dag.spark_pipeline_task manual__2022-06-10T14:03:58.104983+00:00 [queued]>
+[2022-06-10 17:08:36,771] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: spark_pipeline_dag.spark_pipeline_task manual__2022-06-10T14:03:58.104983+00:00 [queued]>
+[2022-06-10 17:08:36,771] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-10 17:08:36,771] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2022-06-10 17:08:36,771] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-10 17:08:36,775] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): spark_pipeline_task> on 2022-06-10 14:03:58.104983+00:00
+[2022-06-10 17:08:36,776] {standard_task_runner.py:52} INFO - Started process 1694 to run task
+[2022-06-10 17:08:36,778] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'spark_pipeline_dag', 'spark_pipeline_task', 'manual__2022-06-10T14:03:58.104983+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/var/folders/7p/cr8xz9ln34l55g9c5fr8glxm0000gn/T/tmpd7fb65b3', '--error-file', '/var/folders/7p/cr8xz9ln34l55g9c5fr8glxm0000gn/T/tmpijmd_h2f']
+[2022-06-10 17:08:36,779] {standard_task_runner.py:80} INFO - Job 22: Subtask spark_pipeline_task
+[2022-06-10 17:08:36,792] {task_command.py:370} INFO - Running <TaskInstance: spark_pipeline_dag.spark_pipeline_task manual__2022-06-10T14:03:58.104983+00:00 [running]> on host 1.0.0.127.in-addr.arpa
+[2022-06-10 17:08:36,808] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=spark_pipeline_dag
+AIRFLOW_CTX_TASK_ID=spark_pipeline_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-10T14:03:58.104983+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-06-10T14:03:58.104983+00:00
+[2022-06-10 17:08:49,170] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-10 17:08:49,174] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=spark_pipeline_dag, task_id=spark_pipeline_task, execution_date=20220610T140358, start_date=20220610T140836, end_date=20220610T140849
+[2022-06-10 17:08:49,189] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-10 17:08:49,194] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
