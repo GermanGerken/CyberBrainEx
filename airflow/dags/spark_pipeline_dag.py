@@ -5,7 +5,6 @@ from airflow.decorators import task
 from airflow.utils.dates import days_ago
 from airflow.operators.python import PythonOperator
 
-
 from pyspark.sql import SparkSession, DataFrame
 import pyspark.sql.functions as F
 
@@ -16,8 +15,8 @@ default_args = {
     "retries": 1,
 }
 
-dirname ='/Users/germangerken/airflow/data'
-files = os.listdir(dirname)
+dirname = '/Users/germangerken/airflow/data'  # Dir where our files stored
+files = os.listdir(dirname)  # Get the list of files in Dir
 
 # path = f"data/{datetime.date.today()}.logsite.csv.gz"
 
@@ -29,6 +28,12 @@ with DAG(
         max_active_runs=1,
         tags=['cb-ex'],
 ) as dag:
+    dag.doc_md = """
+        Dag will go as many times as numbers of files in folder
+        With decorator @task we convert function spark_pipline in 
+        airflow operator. The function will work with the filename passed in to run on that file.
+        """
+
     for path in files:
         @task(task_id=f'spark_pipeline_task{path}')
         def spark_pipeline(file):
@@ -48,6 +53,5 @@ with DAG(
             )
             output.write.mode("append").format("csv").save("output.csv")
 
+
         spark_tasks = spark_pipeline(path)
-
-
